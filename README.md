@@ -16,4 +16,22 @@ Se crean registros pre cargados a traves de sedder para la tabla de documents en
 Se crea una coleccion en Postman para facilitar su uso y poder hacer pruebas del crud, el cual se puede descargar e importar a postman para utilizar libremente, este ya cuenta con los JSON necesarios unicamente se deben agregar los datos.
 Link de descarga: https://drive.google.com/file/d/1QodIThQi816hVAkNbcOu8edO4T-Mmaz0/view?usp=sharing
 
+## Instalar el proyecto
+1.Crear una base de datos con el nombre "monkey"
+2.Clonar o descargar el proyecto en el directorio de tu servidor web
+3.Acceder mediante terminal a la carpeta del proyecto
+4.Ejecutar: Composer install
+5.Crear el archivo .env con los comandos: cp .env.example .env
+6.Generar la API key ejecutando: php artisan key:generate
+7.En el archivo .env colocar el nombre de la base de datos que se va a utilizar en este caso "monkey"
+8.Para ejecutar las migraciones: php artisan migrate --seed
+9.Por ultimo correr comando php artisan serve para poder correr pruebas.
 
+## Herramientas de Desarrollo
+Laravel Framework v - 8
+PHP 7
+visual studio code
+postman
+xampp
+MySQL phpMyAdmin
+GitHub
