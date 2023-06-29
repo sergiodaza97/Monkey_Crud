@@ -6,10 +6,10 @@ Se crea una base de datos relacional en la cual se tienen dos tablas una llamada
 
 ![image](https://github.com/sergiodaza97/Monkey_Crud/assets/79348915/e0296200-e37b-4b3d-a4cf-97bcc90e8dc8)
 
-### Migraciones: 
-Se crean las tablas mediante migraciones para facilitar el uso del proyecto utilizando php artisan migrate se crean de manera automatica, aunque si se quisieran crear de manera manual solo debe correr "CREATE TABLE `monkey`.`record` ( `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY , `name` VARCHAR(450) NOT NULL , `last_name` VARCHAR(450) NOT NULL , `email` VARCHAR(450) NOT NULL , `password` VARCHAR(450) NOT NULL , `type_document_id` INT NOT NULL ) ENGINE = InnoDB;" (para la tabla documents) y "CREATE TABLE `monkey`.`record` ( `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY , `name` VARCHAR(450) NOT NULL , `last_name` VARCHAR(450) NOT NULL , `email` VARCHAR(450) NOT NULL , `password` VARCHAR(450) NOT NULL , `type_document_id` INT NOT NULL ) ENGINE = InnoDB;" ( Para la tabla records).
-### Sedders: 
-Se crean registros pre cargados a traves de sedder para la tabla de documents en la cual se crean cuatro registros para el tipo de documento, los cuales son  [ 1 => Registro Civil, 2 => Tarjeta de Identidad, 3 => Cédula de Ciudadanía, 4 => Cédula de Extranjeria], lo cual podemos cargar al utilizar comando php artisan migration --seed
+ - ### Migraciones: 
+    Se crean las tablas mediante migraciones para facilitar el uso del proyecto utilizando php artisan migrate se crean de manera         automatica, aunque si se quisieran crear de manera manual solo debe correr "CREATE TABLE `monkey`.`record` ( `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY , `name` VARCHAR(450) NOT NULL , `last_name` VARCHAR(450) NOT NULL , `email` VARCHAR(450) NOT NULL , `password` VARCHAR(450) NOT NULL , `type_document_id` INT NOT NULL ) ENGINE = InnoDB;" (para la tabla documents) y "CREATE TABLE `monkey`.`record` ( `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY , `name` VARCHAR(450) NOT NULL , `last_name` VARCHAR(450) NOT NULL , `email` VARCHAR(450) NOT NULL , `password` VARCHAR(450) NOT NULL , `type_document_id` INT NOT NULL ) ENGINE = InnoDB;" ( Para la tabla records).
+ - ### Sedders: 
+    Se crean registros pre cargados a traves de sedder para la tabla de documents en la cual se crean cuatro registros para el tipo de documento, los cuales son  [ 1 => Registro Civil, 2 => Tarjeta de Identidad, 3 => Cédula de Ciudadanía, 4 => Cédula de Extranjeria], lo cual podemos cargar al utilizar comando php artisan migration --seed
      
 
 ## Postman
